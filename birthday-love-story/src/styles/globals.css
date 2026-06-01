@@ -1,0 +1,50 @@
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+
+  background: #050816;
+  color: white;
+
+  font-family: 'Poppins', sans-serif;
+
+  scroll-behavior: smooth;
+}
+
+body {
+  background:
+    radial-gradient(circle at top, #1a103d 0%, #050816 70%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a14;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff69b4;
+  border-radius: 999px;
+}
+
+@keyframes rainFall {
+  from {
+    transform: translateY(-100vh);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(100vh);
+    opacity: 1;
+  }
+}
