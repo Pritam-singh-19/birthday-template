@@ -1,5 +1,7 @@
 import { motion } from 'framer-motion'
 
+import FloatingAyushiPhotos from './FloatingAyushiPhotos'
+
 const particles = [...Array(25)]
 
 const FloatingParticles = () => {

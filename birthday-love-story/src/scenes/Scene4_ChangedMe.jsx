@@ -6,7 +6,8 @@ import CinematicVideo from '../components/common/CinematicVideo'
 import FadeIn from '../components/animations/FadeIn'
 import StorySequence from '../components/animations/StorySequence'
 
-import FloatingParticles from '../components/common/FloatingParticles'
+import FloatingAyushiPhotos from '../components/common/FloatingAyushiPhotos'
+
 import SunsetGlow from '../components/common/SunsetGlow'
 
 const Scene4_ChangedMe = () => {
@@ -22,11 +23,10 @@ const Scene4_ChangedMe = () => {
       {/* Sunset Glow */}
       <SunsetGlow />
 
-      {/* Particles */}
-      <FloatingParticles />
+      <FloatingAyushiPhotos />
 
       {/* Main Content */}
-      <div className="relative z-10 max-w-5xl mx-auto text-center">
+      <div className="relative z-20 max-w-5xl mx-auto text-center">
 
         <FadeIn delay={0.5}>
           <p className="uppercase tracking-[14px] text-orange-200 text-sm mb-8">
@@ -44,14 +44,22 @@ const Scene4_ChangedMe = () => {
         <FadeIn delay={2}>
           <div className="mt-20">
 
-            <StorySequence
-              lines={[
-                'Before you...',
-                'I existed.',
-                'After you...',
-                'I started living.',
-              ]}
-            />
+          <StorySequence
+            lines={[
+              'Without you...',
+              'this boy was just a boy.',
+              'Lost.',
+              'Careless.',
+              'Wandering through life.',
+              '',
+              'And then suddenly...',
+              'you were everywhere.',
+              '',
+              'In my thoughts.',
+              'In my dreams.',
+              'In every plan for tomorrow.',
+            ]}
+          />
 
           </div>
         </FadeIn>
@@ -85,6 +93,25 @@ const Scene4_ChangedMe = () => {
               repeat: Infinity,
             }}
           >
+
+            <p className="text-2xl md:text-4xl text-white mb-16 leading-relaxed">
+
+              And somehow...
+
+              <br />
+              <br />
+
+              the girl I couldn't stop thinking about
+
+              <br />
+
+              became the person
+
+              <br />
+
+              I couldn't imagine life without.
+
+            </p>
             <h2 className="text-5xl md:text-8xl font-black text-white drop-shadow-[0_0_60px_rgba(255,255,255,0.8)]">
               But with you...
             </h2>
